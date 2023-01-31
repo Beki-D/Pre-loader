@@ -22,6 +22,16 @@
         animation: spin 2s linear infinite;
       }
 
+      .content {
+        width: 120px;
+        height: 120px;
+      }
+
+      img {
+        width: 720px;
+        height: 420px
+      }
+
       @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
@@ -30,23 +40,22 @@
   </head>
   <body onload="removePreloader()">
     <div id="preloader">
-      <div class="loader">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-        <img src="./assets/6327363.jpg" alt="">
-
-      </div>
+      <div class="loader"></div>
     </div>
-
+    <div class="content">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327387.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/6327363.jpg" alt="">
+        <img src="./assets/flag-germany.jpg" alt="">
+    </div>
     <script>
       function removePreloader() {
         var preloader = document.getElementById("preloader");
